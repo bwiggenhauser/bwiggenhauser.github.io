@@ -1,3 +1,12 @@
+window.onload = function () {
+    document.getElementById("rangePopulationText").value = population;
+    document.getElementById("rangeInfDaysText").value = anzahlKrankeTage;
+    document.getElementById("range1ofXText").value = krankNachKontakt;
+    document.getElementById("rangeInfectionText").value = rangeOfInfection;
+    document.getElementById("rangeWalkingSpeedText").value = (distancePerTick * 10);
+}
+
+
 function update(){
   let rangePopulationValue = document.getElementById("rangePopulation").value;
   document.getElementById("rangePopulationText").value = rangePopulationValue;
